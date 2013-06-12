@@ -1,5 +1,3 @@
-blocks="8.8.8.8 microsoft.com"
-
 for ns in $(
 	nslookup -q=TXT _spf.google.com 8.8.8.8 |
 	grep 'text\ =\ '|
