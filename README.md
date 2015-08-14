@@ -7,7 +7,7 @@ amici-google specifically targets google, which is nice because google is a big 
 
 This is the first attempt at an amici script, amici aims to foil the PRISM program that the American governement has been conducting in secret by simply allowing you to easily "boycot" the services it watches in an automated manner. Amici leverages the spf records provided by the corporates themselves to determine which addresses need to be be blocked, the blocking itself is done via `iptables` and `ip6tables`.
 
-(Wikipedia:Amica)[https://en.wikipedia.org/wiki/Amici_prism]
+[Wikipedia:Amici](https://en.wikipedia.org/wiki/Amici_prism)
 
 ##Usage
 Run the script like you would any program, no configuration possible at this point. once ran, the networks will remain prohibited until you reboot, unless you use some fancy `iptables-save`r.
